@@ -1,0 +1,75 @@
+
+.invoice-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+  }
+  
+  .invoice-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .invoice-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .left-info, .right-info {
+    width: 48%;
+    font-size: 14px;
+  }
+  
+  .buyer-info {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .items-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .items-table th, .items-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .items-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .taxes, .grand-total, .bank-details, .in-words, .notes, .footer-signature {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .notes ol {
+    padding-left: 20px;
+  }
+  
+  .right-align {
+    text-align: right;
+  }
+  
+  hr {
+    border: 1px solid black;
+  }
+  
+  .grand-total p, .taxes p {
+    font-weight: bold;
+  }
+  
